@@ -1,0 +1,51 @@
+# Archivos de configuración sensibles
+*.env
+*.secret
+
+# Archivos de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Archivos de migraciones de Django (opcional, si no quieres rastrear migraciones)
+migrations/
+
+# Archivos de configuración del entorno virtual
+venv/
+env/
+.virtualenv/
+*.egg-info/
+*.egg
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# Archivos de logs
+*.log
+
+# Archivos de medios y estáticos generados
+media/
+staticfiles/
+static/
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración de Docker (si usas Docker)
+docker-compose.override.yml
