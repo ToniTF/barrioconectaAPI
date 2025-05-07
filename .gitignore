@@ -32,7 +32,8 @@ dist/
 *.log
 
 # Archivos de medios y estáticos generados
-media/
+# media/  <-- Comenta o elimina esta línea si solo vas a usar la de abajo
+proyecto/media/ # <-- Añade o modifica a esta línea
 staticfiles/
 static/
 
